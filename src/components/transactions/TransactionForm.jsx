@@ -6,7 +6,7 @@ export function TransactionForm() {
 
   const [description, setDescription] = useState("");
   const [amount, setAmount] = useState(0);
-  const [type, setType] = useState("");
+  const [type, setType] = useState("ingreso");
 
   const onSubmit = (e) => {
     e.preventDefault();
